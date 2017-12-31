@@ -1,0 +1,253 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EF977FB-2213-4ECA-B8A8-E85CC8D72EBF}</ProjectGuid>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UseMSBuildEngine>true</UseMSBuildEngine>
+    <OutputType>Library</OutputType>
+    <RootNamespace>NewAppyFleet</RootNamespace>
+    <AssemblyName>NewAppyFleet</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile111</TargetFrameworkProfile>
+    <NuGetPackageImportStamp></NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Converters\ImageFilenameConverter.cs" />
+    <Compile Include="Converters\Language.cs" />
+    <Compile Include="Converters\NotificationsToScore.cs" />
+    <Compile Include="Converters\ScoreToImage.cs" />
+    <Compile Include="Converters\SizeConverter.cs" />
+    <Compile Include="CustomViews\BorderlessEntry.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helpers\Helper.cs" />
+    <Compile Include="Interfaces\ILocalise.cs" />
+    <Compile Include="Bluetooth\BluetoothServices.cs" />
+    <Compile Include="Static\FormsConstants.cs" />
+    <Compile Include="Interfaces\IScreenDensity.cs" />
+    <Compile Include="Helpers\DialogService.cs" />
+    <Compile Include="Helpers\NavigationService.cs" />
+    <Compile Include="UIHelpers\FormattedProgress.cs" />
+    <Compile Include="Views\About.cs" />
+    <Compile Include="Views\ContentViews\SignUp\PersonalDetails.cs" />
+    <Compile Include="Views\DashboardPage.cs" />
+    <Compile Include="Views\ErrorPage.cs" />
+    <Compile Include="Views\ListViewCells\JourneyListViewCell.cs" />
+    <Compile Include="Views\ListViewCells\LogFileViewCell.cs" />
+    <Compile Include="Views\ListViewCells\MasterJourneyViewCell.cs" />
+    <Compile Include="Views\ListViewCells\OdoViewCell.cs" />
+    <Compile Include="Views\ListViewCells\SettingsCell.cs" />
+    <Compile Include="Views\ListViewCells\MDPListCell.cs" />
+    <Compile Include="Views\LogFiles.cs" />
+    <None Include="Views\NavigationMasterPage.cs" />
+    <Compile Include="Views\Marketting.cs" />
+    <Compile Include="Views\PairNewVehiclePage.cs" />
+    <Compile Include="Views\Settings\ChangeFleetCode.cs" />
+    <Compile Include="Views\Settings\ChangeOdometer.cs" />
+    <Compile Include="Views\Settings\ChangePhoneNumber.cs" />
+    <Compile Include="Views\Settings\AddOdoReading.cs" />
+    <Compile Include="Views\SignUpPage.cs" />
+    <Compile Include="Views\BasePage.cs" />
+    <None Include="Views\TopBar\MenuView-old.cs" />
+    <Compile Include="Views\TopBar\MenuView.cs" />
+    <Compile Include="Views\TopBar\TopBar.cs" />
+    <Compile Include="Helpers\CorrectedSource.cs" />
+    <Compile Include="Views\Settings\SettingsPage.cs" />
+    <Compile Include="Views\Settings\TandCPage.cs" />
+    <Compile Include="Views\ViewCells\TextArrow.cs" />
+    <Compile Include="Views\ViewCells\MileageCell.cs" />
+    <Compile Include="Views\ViewCells\SpeechBubble.cs" />
+    <Compile Include="CustomViews\RoundedLabel.cs" />
+    <Compile Include="Views\ViewCells\ArrowButton.cs" />
+    <Compile Include="UIHelpers\GetUIElement.cs" />
+    <Compile Include="Views\ViewCells\TitleBar.cs" />
+    <Compile Include="Views\ViewCells\EntryCell.cs" />
+    <Compile Include="Views\ViewCells\PaddingBox.cs" />
+    <Compile Include="Views\ContentViews\SignUp\AccountDetails.cs" />
+    <Compile Include="Views\ContentViews\SignUp\SetPasswordDetails.cs" />
+    <Compile Include="Views\ContentViews\SignUp\FleetDetails.cs" />
+    <Compile Include="Views\ContentViews\SignUp\SignupCompleted.cs" />
+    <Compile Include="Views\ContentViews\ManageVehicles\IntroManageDetails.cs" />
+    <Compile Include="Views\ContentViews\ManageVehicles\PairingToDevice.cs" />
+    <Compile Include="Views\ContentViews\ManageVehicles\PairingCompleted.cs" />
+    <Compile Include="Views\ContentViews\ManageVehicles\VehicleSummaryDetails.cs" />
+    <Compile Include="Views\ListViewCells\RegisteredVehicleViewCell.cs" />
+    <Compile Include="Views\ContentViews\ManageVehicles\SearchSelectAddDetails.cs" />
+    <Compile Include="Views\ContentViews\ManageVehicles\AddVehicleDetails.cs" />
+    <Compile Include="Views\ContentViews\ManageVehicles\FindBluetoothPairingDetails.cs" />
+    <Compile Include="Views\ListViewCells\BluetoothViewCell.cs" />
+    <Compile Include="Views\ViewCells\UniversalEntry.cs" />
+    <Compile Include="Views\ViewCells\ImageEntryCell.cs" />
+    <Compile Include="Converters\ReverseBool.cs" />
+    <Compile Include="Views\InitialApprovalPage.cs" />
+    <Compile Include="Views\LoginPage.cs" />
+    <Compile Include="Views\ContentViews\InitialApprovalView.cs" />
+    <Compile Include="Interfaces\IPDFViewer.cs" />
+    <Compile Include="Views\ViewCells\GeneralTopBar.cs" />
+    <Compile Include="Views\ContentViews\AccordianView\Accordian.cs" />
+    <Compile Include="Views\ListViewCells\JourneyViewCell.cs" />
+    <Compile Include="Converters\ScoreToColor.cs" />
+    <Compile Include="Converters\DiffScoreToColor.cs" />
+    <Compile Include="Views\ViewCells\ScoreDial.cs" />
+    <Compile Include="Views\ViewCells\NoticeOdometer.cs" />
+    <Compile Include="Views\JourneysPage.cs" />
+    <Compile Include="Views\NotificationsPage.cs" />
+    <Compile Include="Views\MapsPage.cs" />
+    <Compile Include="Views\ScoreHistory.cs" />
+    <Compile Include="CustomViews\CustomImage.cs" />
+    <Compile Include="Views\Settings\ChangePassword.cs" />
+    <Compile Include="CustomViews\CustomMap.cs" />
+    <Compile Include="Views\SOSPage.cs" />
+    <Compile Include="Views\ViewCells\ProgressBars.cs" />
+    <Compile Include="Views\CarouselViewCells\SOSViewCell.cs" />
+    <Compile Include="Views\CarouselViewCells\RankingViewCell.cs" />
+    <Compile Include="Converters\DoubleToOneDpString.cs" />
+    <Compile Include="Converters\JourneyScoreToColor.cs" />
+    <Compile Include="Views\ContentViews\ScoreGrid.cs" />
+    <Compile Include="Views\ExpensesPage.cs" />
+    <Compile Include="Converters\OptToFilename.cs" />
+    <Compile Include="Geofence\GeofenceListener.cs" />
+    <Compile Include="NewAppyFleet.cs" />
+    <Compile Include="Views\ForgottenPassword.cs" />
+    <Compile Include="Views\ProfilePage.cs" />
+    <Compile Include="Converters\NotificationFilterToBGColor.cs" />
+    <Compile Include="Views\ListViewCells\NotificationViewCell.cs" />
+    <Compile Include="Converters\BoolToAlertImage.cs" />
+    <Compile Include="Converters\BoolToAlertColor.cs" />
+    <Compile Include="CustomViews\CustomListView.cs" />
+    <Compile Include="Views\NotificationMapPage.cs" />
+    <Compile Include="CustomViews\CustomEventMap.cs" />
+    <Compile Include="Views\MapFrames\NotificationMapFrame.cs" />
+    <Compile Include="CustomViews\CarouselViewer.cs" />
+    <Compile Include="Views\EmergencyAdvice.cs" />
+    <Compile Include="Views\ListViewCells\ExpensesViewCell.cs" />
+    <Compile Include="Converters\BoolToMarketImage.cs" />
+    <Compile Include="Views\ListViewCells\LanguageViewCell.cs" />
+    <Compile Include="Views\Settings\ChangeLanguage.cs" />
+    <Compile Include="Views\ViewCells\Carousel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Plugin.BLE, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.BLE.1.3.0\lib\portable-net45+win8+wpa81+wp8\Plugin.BLE.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.BLE.Abstractions, Version=1.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Plugin.BLE.1.3.0\lib\portable-net45+win8+wpa81+wp8\Plugin.BLE.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.LocalNotifications, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Notifier.2.1.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.LocalNotifications.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.LocalNotifications.Abstractions, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xam.Plugins.Notifier.2.1.0\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\Plugin.LocalNotifications.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="ScnPage.Plugin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ScnSideMenu.Forms.1.2.10\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\ScnPage.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="ScnSideMenu, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ScnSideMenu.Forms.1.2.10\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\ScnSideMenu.dll</HintPath>
+    </Reference>
+    <Reference Include="ScnViewGestures, Version=1.3.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ScnViewGestures.Forms.1.3.6.1\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10\ScnViewGestures.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.CarouselView, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Xamarin.Forms.CarouselView.2.3.0-pre2\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.CarouselView.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight">
+      <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10\GalaSoft.MvvmLight.dll</HintPath>
+    </Reference>
+    <Reference Include="GalaSoft.MvvmLight.Extras">
+      <HintPath>..\packages\MvvmLightLibs.5.3.0.0\lib\portable-net45+wp8+wpa81+netcore45+monoandroid1+xamarin.ios10\GalaSoft.MvvmLight.Extras.dll</HintPath>
+    </Reference>
+    <Reference Include="SQLite.Net">
+      <HintPath>..\packages\SQLite.Net-PCL.3.1.1\lib\portable-win8+net45+wp8+wpa81+MonoAndroid1+MonoTouch1\SQLite.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot">
+      <HintPath>..\packages\OxyPlot.Core.1.0.0\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid1+MonoTouch1+Xamarin.iOS10\OxyPlot.dll</HintPath>
+    </Reference>
+    <Reference Include="OxyPlot.Xamarin.Forms">
+      <HintPath>..\packages\OxyPlot.Xamarin.Forms.1.0.0\lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10\OxyPlot.Xamarin.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Geofence.Plugin.Abstractions">
+      <HintPath>..\packages\Xam.Plugin.Geofence.1.1.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Geofence.Plugin.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Geofence.Plugin">
+      <HintPath>..\packages\Xam.Plugin.Geofence.1.1.2\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Geofence.Plugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ServiceLocation">
+      <HintPath>..\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="HockeySDK">
+      <HintPath>..\packages\HockeySDK.Xamarin.5.1.1\lib\portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10\HockeySDK.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Permissions.Abstractions">
+      <HintPath>..\packages\Plugin.Permissions.2.1.0\lib\netstandard1.0\Plugin.Permissions.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Permissions">
+      <HintPath>..\packages\Plugin.Permissions.2.1.0\lib\netstandard1.0\Plugin.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.0.3\lib\netstandard1.0\Plugin.Connectivity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.0.3\lib\netstandard1.0\Plugin.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator.Abstractions">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.4.1.3\lib\netstandard1.0\Plugin.Geolocator.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator">
+      <HintPath>..\packages\Xam.Plugin.Geolocator.4.1.3\lib\netstandard1.0\Plugin.Geolocator.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.122203\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.122203\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml">
+      <HintPath>..\packages\Xamarin.Forms.2.5.0.122203\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Maps">
+      <HintPath>..\packages\Xamarin.Forms.Maps.2.5.0.122203\lib\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.Maps.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Helpers\CrossGeofenceListener.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\mvvmlight\mvvmlight.csproj">
+      <Project>{208E20F9-334F-490B-B81B-AAE20CA44FFA}</Project>
+      <Name>mvvmlight</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Views\MapFrames\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\SQLitePCL.native.sqlite3.v110_xp.0.9.3\build\SQLitePCL.native.sqlite3.v110_xp.targets" Condition="Exists('..\packages\SQLitePCL.native.sqlite3.v110_xp.0.9.3\build\SQLitePCL.native.sqlite3.v110_xp.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\SQLitePCL.native.sqlite3.v110_xp.0.9.3\build\SQLitePCL.native.sqlite3.v110_xp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\SQLitePCL.native.sqlite3.v110_xp.0.9.3\build\SQLitePCL.native.sqlite3.v110_xp.targets'))" />
+  </Target>
+  <Import Project="..\packages\Xamarin.Forms.2.5.0.122203\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.122203\build\portable-win+net45+wp80+win81+wpa81\Xamarin.Forms.targets')" />
+</Project>

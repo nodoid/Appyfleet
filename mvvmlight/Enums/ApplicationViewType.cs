@@ -1,0 +1,34 @@
+﻿namespace mvvmframework
+{
+    public enum ApplicationViewType
+    {
+        Login,
+        MainMenu,
+        ForgotenPassword,
+        TermsAndConditions,
+        SettingsTermsAndConditions,
+        RegisterStep1,
+        RegisterStep2,
+        RegisterStep3,
+        PairVehicle,
+        RegistrationComplete,
+        Dashboard,
+        ScoreHistory,
+        Profile,
+        MapView,
+        MyJourneys,
+        DriverTips,
+        Expenses,
+        UserGuide,
+        Settings,
+        ChangePassword,
+        ChangephoneNumber,
+        EnterFleetCode,
+        EnterOdometerReading,
+        MarketingPrefences,
+        LanguagePrefences,
+        LogFiles,
+        About,
+        EmergencyAdviced
+    }
+}

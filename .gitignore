@@ -1,0 +1,12 @@
+packages/*
+Droid/bin/*
+Droid/obj/*
+iOS/bin/*
+iOS/obj/*
+mvvmlight/bin/*
+mvvmlight/obj/*
+NewAppyFleet/bin/*
+NewAppyFleet/obj/*
+AppyFleet.UWP/bin/*
+AppyFleet.UWP/obj/*
+

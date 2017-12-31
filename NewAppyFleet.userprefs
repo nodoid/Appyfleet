@@ -1,0 +1,64 @@
+﻿<Properties StartupConfiguration="{1953E157-1035-4DD4-993F-A19D922AB5D6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Droid/MainActivity.cs">
+    <Files>
+      <File FileName="NewAppyFleet/Views/ViewCells/Carousel.cs" Line="35" Column="88" />
+      <File FileName="NewAppyFleet/Views/DashboardPage.cs" Line="108" Column="55" />
+      <File FileName="mvvmlight/ViewModels/DashboardViewModel.cs" Line="80" Column="43" />
+      <File FileName="mvvmlight/ViewModels/PairNewVehicleViewModel.cs" Line="117" Column="21" />
+      <File FileName="NewAppyFleet/Views/PairNewVehiclePage.cs" Line="80" Column="10" />
+      <File FileName="mvvmlight/Services/WebInterface.cs" Line="589" Column="2" />
+      <File FileName="mvvmlight/Constants/Constants.cs" Line="47" Column="50" />
+      <File FileName="mvvmlight/Services/LogFileService.cs" Line="1" Column="1" />
+      <File FileName="mvvmlight/Services/JourneyService.cs" Line="137" Column="21" />
+      <File FileName="packages/Plugin.Permissions.2.1.0/readme.txt" Line="1" Column="1" />
+      <File FileName="packages/Xam.Plugin.Geolocator.4.1.3/readme.txt" Line="1" Column="1" />
+      <File FileName="NewAppyFleet/Views/LoginPage.cs" Line="1" Column="1" />
+      <File FileName="Droid/MainActivity.cs" Line="8" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/Droid/Extensions/EnumExtensions.cs" relfile="Droid/Extensions/EnumExtensions.cs" line="14" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Helpers/NavigationService.cs" relfile="NewAppyFleet/Helpers/NavigationService.cs" line="19" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ListViewCells/RankingViewCell.cs" relfile="NewAppyFleet/Views/ListViewCells/RankingViewCell.cs" line="62" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/DashboardPage.cs" relfile="NewAppyFleet/Views/DashboardPage.cs" line="402" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ListViewCells/RankingViewCell.cs" relfile="NewAppyFleet/Views/ListViewCells/RankingViewCell.cs" line="12" column="1" />
+      <Breakpoint file="/Users/PFJ/dev/appy/NewAppyFleet.Forms/Droid/MainActivity.cs" line="80" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/Services/WebInterface.cs" relfile="mvvmlight/Services/WebInterface.cs" line="78" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/TopBar/TopBar.cs" relfile="NewAppyFleet/Views/TopBar/TopBar.cs" line="56" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/SQL/DBHelper.cs" relfile="mvvmlight/SQL/DBHelper.cs" line="38" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/ViewModels/PairNewVehicleViewModel.cs" relfile="mvvmlight/ViewModels/PairNewVehicleViewModel.cs" line="82" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ContentViews/SignUp/FleetDetails.cs" relfile="NewAppyFleet/Views/ContentViews/SignUp/FleetDetails.cs" line="109" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/MapsPage.cs" relfile="NewAppyFleet/Views/MapsPage.cs" line="75" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/ViewModels/MapsViewModel.cs" relfile="mvvmlight/ViewModels/MapsViewModel.cs" line="69" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/ViewModels/MapsViewModel.cs" relfile="mvvmlight/ViewModels/MapsViewModel.cs" line="65" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/ViewModels/Settings/MarkettingPrefsViewModel.cs" relfile="mvvmlight/ViewModels/Settings/MarkettingPrefsViewModel.cs" line="40" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ExpensesPage.cs" relfile="NewAppyFleet/Views/ExpensesPage.cs" line="34" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/ViewModels/ExpensesViewModel.cs" relfile="mvvmlight/ViewModels/ExpensesViewModel.cs" line="87" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ListViewCells/ExpensesViewCell.cs" relfile="NewAppyFleet/Views/ListViewCells/ExpensesViewCell.cs" line="13" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Converters/DoubleToOneDpString.cs" relfile="NewAppyFleet/Converters/DoubleToOneDpString.cs" line="12" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ListViewCells/ExpensesViewCell.cs" relfile="NewAppyFleet/Views/ListViewCells/ExpensesViewCell.cs" line="255" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/Services/WebInterface.cs" relfile="mvvmlight/Services/WebInterface.cs" line="57" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/CustomViews/CarouselViewer.cs" relfile="NewAppyFleet/CustomViews/CarouselViewer.cs" line="61" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/NewAppyFleet.cs" relfile="NewAppyFleet/NewAppyFleet.cs" line="303" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" relfile="NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" line="38" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" relfile="NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" line="40" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" relfile="NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" line="21" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" relfile="NewAppyFleet/Views/ContentViews/ManageVehicles/FindBluetoothPairingDetails.cs" line="189" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/ViewModels/ExpensesViewModel.cs" relfile="mvvmlight/ViewModels/ExpensesViewModel.cs" line="130" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/mvvmlight/ViewModels/SignUpViewModel.cs" relfile="mvvmlight/ViewModels/SignUpViewModel.cs" line="297" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Bluetooth/BluetoothServices.cs" relfile="NewAppyFleet/Bluetooth/BluetoothServices.cs" line="49" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Bluetooth/BluetoothServices.cs" relfile="NewAppyFleet/Bluetooth/BluetoothServices.cs" line="46" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Bluetooth/BluetoothServices.cs" relfile="NewAppyFleet/Bluetooth/BluetoothServices.cs" line="65" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/DashboardPage.cs" relfile="NewAppyFleet/Views/DashboardPage.cs" line="113" column="1" />
+      <Breakpoint file="/Users/PFJ/Developer/AppyFleet/newappy/AppyFleet.Forms/NewAppyFleet.Forms/NewAppyFleet/Views/PairNewVehiclePage.cs" relfile="NewAppyFleet/Views/PairNewVehiclePage.cs" line="37" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <DisabledProjects>
+    <String>iOS/NewAppyFleet.iOS.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.NewAppyFleet.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+</Properties>

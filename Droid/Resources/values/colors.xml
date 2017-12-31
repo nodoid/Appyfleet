@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="entry_background">#ffffff</color>
+  <color name="entry_border">#2B47FF</color>
+  <color name="translucent_black">#44000000</color>
+  <color name="translucent">#00000000</color>
+  <color name="translucent_20pc">#33000000</color>
+  <color name="translucent_white">#ccffffff</color>
+  <color name="white">#ffffffff</color>
+  <color name="black">#ff000000</color>
+  <color name="dropdown_background">#8e8f8f</color>
+	<color name="appyfleet_red">#ee3f43</color>
+	<color name="appyfleet_light">#e73238</color>
+</resources>

@@ -1,0 +1,1285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="Const_Title_Error_1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+	<data name="Const_Title_Error_2" xml:space="preserve">
+    <value>Oops!</value>
+  </data>
+	<data name="Const_Title_Error_3" xml:space="preserve">
+    <value>Oops! Something went wrong!</value>
+  </data>
+	<data name="Const_Title_Completed" xml:space="preserve">
+    <value>Success</value>
+  </data>
+	<data name="Const_Title_Are_You_Sure" xml:space="preserve">
+    <value>Are you sure?</value>
+  </data>
+	<data name="Const_Msg_Invalid_Email" xml:space="preserve">
+    <value>Invalid email address.</value>
+  </data>
+	<data name="Const_Msg_Already_Exist" xml:space="preserve">
+    <value>Supplied information already exists.</value>
+  </data>
+	<data name="Const_Msg_UnknownError" xml:space="preserve">
+    <value>The application has encountered an unknown error.</value>
+  </data>
+	<data name="Const_Msg_Password_Send" xml:space="preserve">
+    <value>Your password has sent to your email address.</value>
+  </data>
+	<data name="Const_Msg_Forgot_Password_Desc" xml:space="preserve">
+    <value>Please enter your email address and year of birth. We will email you a link to reset your password.</value>
+  </data>
+	<data name="Const_Msg_Private_Mode_Selection" xml:space="preserve">
+    <value>Next Journey Only? Select Accept OR Cancel</value>
+  </data>
+	<data name="Const_Msg_Waiting" xml:space="preserve">
+    <value>waiting...</value>
+  </data>
+	<data name="Const_Msg_Marketing" xml:space="preserve">
+    <value>Tick this box if you'd like to receive emails with Appy Fleet tips and news. You can unsubscribe at any time.</value>
+  </data>
+	<data name="Const_Msg_Password_Not_Matching" xml:space="preserve">
+    <value>Password does not match the confirm password.</value>
+  </data>
+	<data name="Const_Msg_New_Password_Not_Matching" xml:space="preserve">
+    <value>New password does not match the confirmed password.</value>
+  </data>
+	<data name="Const_Msg_Password_Invalid" xml:space="preserve">
+    <value>Invalid Password entered. Must be a minimum of 8 characters.</value>
+  </data>
+	<data name="Const_Msg_Old_Password_Incorrect" xml:space="preserve">
+    <value>Your old password is incorrect. Please try again.</value>
+  </data>
+	<data name="Const_Msg_NavigateTo_Login" xml:space="preserve">
+    <value>Go to login screen</value>
+  </data>
+	<data name="Const_Msg_Registration_Completed" xml:space="preserve">
+    <value>Driver Details Complete!</value>
+  </data>
+	<data name="Const_Msg_Registration_Completed_Description" xml:space="preserve">
+    <value>You will now need to pair a new vehicle before you can start using the app to its full potential. Please make sure you know the vehicle you are assigned to or you will NOT be able to use this app any further.</value>
+  </data>
+	<data name="Const_Msg_Registration_Completed_Pair_Vehicle" xml:space="preserve">
+    <value>Please complete the process by pairing a new vehicle.</value>
+  </data>
+	<data name="Const_Msg_No_Map_Data" xml:space="preserve">
+    <value>There is no cached map data on your phone</value>
+  </data>
+	<data name="Const_Msg_Private_Mode_Enabled_1" xml:space="preserve">
+    <value>Private mode is enabled until the end of the journey</value>
+  </data>
+	<data name="Const_Msg_Private_Mode_Enabled_2" xml:space="preserve">
+    <value>Enabled till %@ on %@</value>
+  </data>
+	<data name="Const_Msg_Private_Mode_Enabled_3" xml:space="preserve">
+    <value>Private mode enabled with end time - %@</value>
+  </data>
+	<data name="Const_Msg_Select_Date_Range_1" xml:space="preserve">
+    <value>Please select corresponding dates.</value>
+  </data>
+	<data name="Const_Msg_Select_Date_Range_2" xml:space="preserve">
+    <value>Please select a date range.</value>
+  </data>
+	<data name="Const_Msg_Select_Vehicle" xml:space="preserve">
+    <value>Please select a vehicle</value>
+  </data>
+	<data name="Const_Msg_Private_Mode_Desc" xml:space="preserve">
+    <value>You can choose to set your app to Private Mode OR set a time frame for Private Mode to remain active.</value>
+  </data>
+	<data name="Const_Msg_Access_Code_Desc" xml:space="preserve">
+    <value>Driver or Access Code not found.</value>
+  </data>
+	<data name="Const_Msg_Success_Enter_Fleet_Code" xml:space="preserve">
+    <value>Fleet Code entered successfully.</value>
+  </data>
+	<data name="Const_Msg_Success_Change_Phone_Number" xml:space="preserve">
+    <value>Phone Number changed.</value>
+  </data>
+	<data name="Const_Msg_Success_Change_Password" xml:space="preserve">
+    <value>Password changed.</value>
+  </data>
+	<data name="Const_Msg_Success_Enter_Odometer_Reding" xml:space="preserve">
+    <value>Odometer Reading added.</value>
+  </data>
+	<data name="Const_Msg_Cannot_Send_Email" xml:space="preserve">
+    <value>Please check email settings.</value>
+  </data>
+	<data name="Const_Msg_Screen_Locked" xml:space="preserve">
+    <value>For safety reasons, you can’t access this app whilst a journey is being recorded.</value>
+  </data>
+	<data name="Const_Msg_Server_Connection_Error" xml:space="preserve">
+    <value>An error occurred while connecting to the application server. Please try again.</value>
+  </data>
+	<data name="Const_Msg_SOS_1" xml:space="preserve">
+    <value>Your driver %@ %@ in vehicle registration number %@ sent you an Appy Fleet SOS alert at %@. You might want to contact them to provide emergency assistance.</value>
+  </data>
+	<data name="Const_Msg_SOS_2" xml:space="preserve">
+    <value>Your driver %@ %@ sent you an Appy Fleet SOS alert at %@. You might want to contact them to provide emergency assistance.</value>
+  </data>
+	<data name="Const_Msg_Disagree_Failed" xml:space="preserve">
+    <value>Failed.  Failed to submit event, please check connection and try again.</value>
+  </data>
+	<data name="Const_Msg_Disagree_Success" xml:space="preserve">
+    <value>Thank you for your submission.  A member of the team will review the speeding event and correct the road speed if required.</value>
+  </data>
+	<data name="Const_Msg_Help_Disagree" xml:space="preserve">
+    <value>If you believe we have the incorrect road speed limit, please enter the suggested road speed limit below.</value>
+  </data>
+	<data name="Const_Msg_Pair_Vehicle_Description_1" xml:space="preserve">
+    <value>Before starting a journey you need to pair a vehicle with an in-car Bluetooth device.</value>
+  </data>
+	<data name="Const_Msg_Pair_Vehicle_Description_2" xml:space="preserve">
+    <value>Follow these simple steps below:</value>
+  </data>
+	<data name="Const_Msg_Pair_Vehicle_Help_Description_1" xml:space="preserve">
+    <value>If the vehicle is not present in the list, please select Add new vehicle.</value>
+  </data>
+	<data name="Const_Msg_Pair_Vehicle_Help_Description_2" xml:space="preserve">
+    <value>Please enter your vehicle details on this screen, once this has been completed you will need to pair this vehicle to a Bluetooth device before you can complete a journey.</value>
+  </data>
+	<data name="Const_Msg_Pair_Vehicle_Help_Description_3" xml:space="preserve">
+    <value>Please select your Bluetooth device from the list. If it is not present please ensure that the Bluetooth device is paired with your phone by checking this in your phones settings.</value>
+  </data>
+	<data name="Const_Msg_Pair_Vehicle_Help_Description_4" xml:space="preserve">
+    <value>Pressing confirm will complete the vehicle pairing process and you will be ready to start a journey. Ensure all details are correct before proceeding as you cannot unpair a vehicle.</value>
+  </data>
+	<data name="Const_Msg_Registration_Step_1_Help_Description" xml:space="preserve">
+    <value>Please enter your Personal Details on this screen, this information is used for creating your driver profile. Ensure all the fields are entered correctly before proceeding.</value>
+  </data>
+	<data name="Const_Msg_Registration_Step_2_Help_Description" xml:space="preserve">
+    <value>Please enter your Account Details on this screen. This information is used to create your account information. Ensure all fields are entered correctly before proceeding.</value>
+  </data>
+	<data name="Const_Msg_Registration_Step_3_Help_Description" xml:space="preserve">
+    <value>Your Password should be a minimum of 8 characters in length.</value>
+  </data>
+	<data name="Const_Msg_Registration_Step_4_Help_Description" xml:space="preserve">
+    <value>A Fleet Access Code may have been provided to you by your fleet manager. This code will allow you to join your company's fleet. If you have this code, please tap the bar and enter your code.</value>
+  </data>
+	<data name="Const_Msg_Registration_Email_Exist" xml:space="preserve">
+    <value>Email already in use.</value>
+  </data>
+	<data name="Const_Msg_Journey_Error" xml:space="preserve">
+    <value>Please note that vehicle %@ has been deleted by your Fleet Manager. Please contact them for more information.</value>
+  </data>
+	<data name="Const_Msg_No_Journeys" xml:space="preserve">
+    <value>You haven’t recorded a journey yet. Once you have, the data will be displayed here.</value>
+  </data>
+	<data name="Const_Msg_Terms_Description" xml:space="preserve">
+    <value>Please read and tick to accept the following terms &amp; conditions.</value>
+  </data>
+  <data name="Const_Msg_Odometer_Description_1" xml:space="preserve">
+  	<value>You last updated the Odometer for %@ on %@ with a reading of %@. You should update your Odometer at least once a month.</value>
+  </data>
+  <data name="Const_Msg_Odometer_Description_2" xml:space="preserve">
+	<value>Please enter your first odometer reading for %@. You should update your Odometer at least once a month.</value>
+  </data>
+  <data name="Const_Msg_Export_No_Journey" xml:space="preserve">
+	<value>Please select the journeys you wish to download.</value>
+  </data>
+	<data name="Const_Msg_SOS_Title_1" xml:space="preserve">
+    <value>Stay calm and don’t panic!</value>
+  </data>
+	<data name="Const_Msg_SOS_Title_2" xml:space="preserve">
+    <value>Call the emergency services</value>
+  </data>
+	<data name="Const_Msg_SOS_Title_3" xml:space="preserve">
+    <value>Get the names of any other drivers</value>
+  </data>
+	<data name="Const_Msg_SOS_Title_4" xml:space="preserve">
+    <value>Get the registration number</value>
+  </data>
+	<data name="Const_Msg_SOS_Title_5" xml:space="preserve">
+    <value>Contact your employers’ organisation</value>
+  </data>
+	<data name="Const_Msg_SOS_Title_6" xml:space="preserve">
+    <value>Exchange insurance details</value>
+  </data>
+	<data name="Const_Msg_SOS_Title_7" xml:space="preserve">
+    <value>Take a number of photos from the scene</value>
+  </data>
+	<data name="Const_Msg_SOS_Description_1" xml:space="preserve">
+    <value>Make sure you are out of danger before you do anything else. Find a safe place away from the road and flow of traffic.</value>
+  </data>
+	<data name="Const_Msg_SOS_Description_2" xml:space="preserve">
+    <value>if anyone involved is badly injured, if you suspect the third party of driving dangerously or illegally or if the vehicles involved are blocking the road.</value>
+  </data>
+	<data name="Const_Msg_SOS_Description_3" xml:space="preserve">
+    <value>or witnesses involved along with their contact details. It’s also important to make a note of how many people were travelling in the other vehicles involved.</value>
+  </data>
+	<data name="Const_Msg_SOS_Description_4" xml:space="preserve">
+    <value>of any vehicles involved.</value>
+  </data>
+	<data name="Const_Msg_SOS_Description_5" xml:space="preserve">
+    <value>if the accident occurred during business hours. Ask for the person responsible for your fleet.</value>
+  </data>
+	<data name="Const_Msg_SOS_Description_6" xml:space="preserve">
+    <value>with the third party(ies) that were involved, if you can – ideally find out who they’re insured by and get their policy number if they have it.</value>
+  </data>
+	<data name="Const_Msg_SOS_Description_7" xml:space="preserve">
+    <value>of the accident using your mobile phone. Try to photograph any areas of damage to your vehicle as well as the third party vehicles involved and also the position of the vehicles at the time of impact. If possible, try to capture vehicle registration plates.</value>
+  </data>
+	<data name="Const_Screen_Title_Terms" xml:space="preserve">
+    <value>Terms and Conditions</value>
+  </data>
+	<data name="Const_Screen_Title_Registration_1" xml:space="preserve">
+    <value>Step 1: Personal Details</value>
+  </data>
+	<data name="Const_Screen_Title_Registration_2" xml:space="preserve">
+    <value>Step 2: Account Details</value>
+  </data>
+	<data name="Const_Screen_Title_Registration_3" xml:space="preserve">
+    <value>Step 3: Password</value>
+  </data>
+	<data name="Const_Screen_Title_Registration_4" xml:space="preserve">
+    <value>Step 4: Fleet Code</value>
+  </data>
+	<data name="Const_Screen_Title_Registration_Completed" xml:space="preserve">
+    <value>Complete Driver Details</value>
+  </data>
+	<data name="Const_Screen_Title_Forgot_Password" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+	<data name="Const_Screen_Title_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+	<data name="Const_Screen_Title_Score_History" xml:space="preserve">
+    <value>Score History</value>
+  </data>
+	<data name="Const_Screen_Title_Journeys" xml:space="preserve">
+    <value>My Journeys</value>
+  </data>
+	<data name="Const_Screen_Title_Expenses" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+	<data name="Const_Screen_Title_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+	<data name="Const_Screen_Title_Change_Password" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+	<data name="Const_Screen_Title_Phone_Number" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+	<data name="Const_Screen_Title_Fleet_Code" xml:space="preserve">
+    <value>Fleet Code</value>
+  </data>
+	<data name="Const_Screen_Title_Odometer_Reading" xml:space="preserve">
+    <value>Odometer Reading</value>
+  </data>
+	<data name="Const_Screen_Title_Marketing_Preferences" xml:space="preserve">
+    <value>Marketing Preferences</value>
+  </data>
+	<data name="Const_Screen_Title_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+	<data name="Const_Screen_Title_SOS" xml:space="preserve">
+    <value>SOS - What to do?</value>
+  </data>
+	<data name="Const_Screen_Title_My_Profile" xml:space="preserve">
+    <value>My Profile</value>
+  </data>
+	<data name="Const_Screen_Title_Vehicles" xml:space="preserve">
+    <value>Manage Vehicles</value>
+  </data>
+	<data name="Const_Screen_Title_Add_Vehicle" xml:space="preserve">
+    <value>Add Vehicle</value>
+  </data>
+	<data name="Const_Screen_Title_Pair_Vehicle" xml:space="preserve">
+    <value>Pair New Vehicle</value>
+  </data>
+	<data name="Const_Screen_Title_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+	<data name="Const_Screen_Title_Language" xml:space="preserve">
+    <value>Language Preferences</value>
+  </data>
+	<data name="Const_Screen_Title_Log_Files" xml:space="preserve">
+    <value>Log Files</value>
+  </data>
+	<data name="Const_Screen_Title_Manage_Vehicle" xml:space="preserve">
+    <value>Manage Vehicle</value>
+  </data>
+	<data name="Const_Screen_Title_Select_Vehicle" xml:space="preserve">
+    <value>Search, Select Or Add a Vehicle</value>
+  </data>
+	<data name="Const_Screen_Title_Select_Bluetooth" xml:space="preserve">
+    <value>Bluetooth Pairing</value>
+  </data>
+	<data name="Const_Screen_Title_Pairing_Summary" xml:space="preserve">
+    <value>Summary</value>
+  </data>
+	<data name="Const_Screen_Title_Pairing_Completed" xml:space="preserve">
+    <value>Confirmation</value>
+  </data>
+	<data name="Const_Label_Agree_1" xml:space="preserve">
+    <value>I agree</value>
+  </data>
+	<data name="Const_Label_Agree_2" xml:space="preserve">
+    <value>Agree</value>
+  </data>
+	<data name="Const_Label_Disagree" xml:space="preserve">
+    <value>Disagree</value>
+  </data>
+	<data name="Const_Label_First_Name" xml:space="preserve">
+    <value>First Name</value>
+  </data>
+	<data name="Const_Label_Last_Name" xml:space="preserve">
+    <value>Last Name</value>
+  </data>
+	<data name="Const_Label_DOB" xml:space="preserve">
+    <value>Year</value>
+  </data>
+	<data name="Const_Label_Mobile_Number" xml:space="preserve">
+    <value>Mobile Number</value>
+  </data>
+	<data name="Const_Label_Company_Name" xml:space="preserve">
+    <value>Company Name</value>
+  </data>
+	<data name="Const_Label_Position" xml:space="preserve">
+    <value>Position</value>
+  </data>
+	<data name="Const_Label_Email_1" xml:space="preserve">
+    <value>Work Email</value>
+  </data>
+	<data name="Const_Label_Email_2" xml:space="preserve">
+    <value>Email Address</value>
+  </data>
+	<data name="Const_Label_Access_Code" xml:space="preserve">
+    <value>Access Code</value>
+  </data>
+	<data name="Const_Label_ReEnter" xml:space="preserve">
+    <value>Re-Enter</value>
+  </data>
+	<data name="Const_Label_Show_Password" xml:space="preserve">
+    <value>Show Password</value>
+  </data>
+	<data name="Const_Label_Hide_Password" xml:space="preserve">
+    <value>Hide Password</value>
+  </data>
+	<data name="Const_Label_Forgot_Password" xml:space="preserve">
+    <value>Forgot Password</value>
+  </data>
+	<data name="Const_Label_Register" xml:space="preserve">
+    <value>Register</value>
+  </data>
+	<data name="Const_Label_Loading" xml:space="preserve">
+    <value>Loading</value>
+  </data>
+	<data name="Const_Label_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+	<data name="Const_Label_Previous" xml:space="preserve">
+    <value>Previous</value>
+  </data>
+	<data name="Const_Label_Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+	<data name="Const_Label_Done" xml:space="preserve">
+    <value>Done</value>
+  </data>
+	<data name="Const_Label_Vehicle_Nickname" xml:space="preserve">
+    <value>Vehicle Nickname</value>
+  </data>
+	<data name="Const_Label_Bluetooth_Completed" xml:space="preserve">
+    <value>You can start using the app to its full potential. Drive safely and use the app to help yourself improve on every journey made.</value>
+  </data>
+	<data name="Const_Label_Latest_Journey_Miles" xml:space="preserve">
+    <value>Your Latest Journey Miles</value>
+  </data>
+	<data name="Const_Label_Latest_Driver_Score" xml:space="preserve">
+    <value>Score Breakdown</value>
+  </data>
+	<data name="Const_Label_Latest_Driver_Journey" xml:space="preserve">
+    <value>Your Latest Driver Journey</value>
+  </data>
+	<data name="Const_Label_Latest_Odometer" xml:space="preserve">
+    <value>Latest Odometer</value>
+  </data>
+	<data name="Const_Label_Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+	<data name="Const_Label_Smoothness" xml:space="preserve">
+    <value>Smoothness</value>
+  </data>
+	<data name="Const_Label_Usage" xml:space="preserve">
+    <value>Usage</value>
+  </data>
+	<data name="Const_Label_Miles" xml:space="preserve">
+    <value>Miles</value>
+  </data>
+	<data name="Gen_Const_Label_Current_Rank" xml:space="preserve">
+    <value>Your current rank position in Appy Fleet</value>
+  </data>
+	<data name="Const_Label_Average_Fleet_Score" xml:space="preserve">
+    <value>Overall - Average Fleet Score</value>
+  </data>
+	<data name="Const_Label_Average_Fleet_Score_Desc" xml:space="preserve">
+    <value>The difference between your score &amp; your fleet's average is:</value>
+  </data>
+	<data name="Const_Label_Your_Difference" xml:space="preserve">
+    <value>Your Difference</value>
+  </data>
+	<data name="Const_Label_Your_Score" xml:space="preserve">
+    <value>Your Score</value>
+  </data>
+	<data name="Const_Label_Fleet_Score" xml:space="preserve">
+    <value>Fleet Score</value>
+  </data>
+	<data name="Const_Label_Private_Mode" xml:space="preserve">
+    <value>Private Mode</value>
+  </data>
+	<data name="Const_Label_Private_Mode_On" xml:space="preserve">
+    <value>Private Mode On</value>
+  </data>
+	<data name="Const_Label_Private_Mode_On_Desc" xml:space="preserve">
+    <value>Private Mode is switched on.</value>
+  </data>
+	<data name="Const_Label_Swipe" xml:space="preserve">
+    <value>Swipe to Scroll</value>
+  </data>
+	<data name="Const_Label_Score_Week" xml:space="preserve">
+    <value>Score for the Week</value>
+  </data>
+  <data name="Const_Label_Week_Commence" xml:space="preserve">
+		<value>WC</value>
+		</data>
+	<data name="Const_Label_Week_End" xml:space="preserve">
+    <value>WE</value>
+  </data>
+	<data name="Const_Label_More" xml:space="preserve">
+    <value>More Info</value>
+  </data>
+	<data name="Const_Label_Less" xml:space="preserve">
+    <value>Less Info</value>
+  </data>
+	<data name="Const_Label_Zone" xml:space="preserve">
+    <value>Zone</value>
+  </data>
+	<data name="Const_Label_Change_Password" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+	<data name="Const_Label_Phone_Number" xml:space="preserve">
+    <value>Phone Number</value>
+  </data>
+	<data name="Const_Label_Enter_Fleet_Code" xml:space="preserve">
+    <value>Enter Fleet Code</value>
+  </data>
+	<data name="Const_Label_Enter_Odometer_Readings" xml:space="preserve">
+    <value>Enter Odometer Readings</value>
+  </data>
+	<data name="Const_Label_Marketing_Preferences" xml:space="preserve">
+    <value>Marketing Preferences</value>
+  </data>
+	<data name="Const_Label_Language_Preferences" xml:space="preserve">
+    <value>Language Preferences</value>
+  </data>
+	<data name="Const_Label_Log_File" xml:space="preserve">
+    <value>Log File</value>
+  </data>
+	<data name="Const_Label_Log_Files" xml:space="preserve">
+    <value>Log Files</value>
+  </data>
+	<data name="Const_Label_About" xml:space="preserve">
+    <value>About</value>
+  </data>
+	<data name="Const_Label_Current_Password" xml:space="preserve">
+    <value>Current Password</value>
+  </data>
+	<data name="Const_Label_New_Password" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+	<data name="Const_Label_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+	<data name="Const_Label_Fleet_Code" xml:space="preserve">
+    <value>Fleet Code</value>
+  </data>
+	<data name="Const_Label_Odometer" xml:space="preserve">
+    <value>Odometer</value>
+  </data>
+	<data name="Const_Label_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+	<data name="Const_Label_Hour" xml:space="preserve">
+    <value>Hour</value>
+  </data>
+	<data name="Const_Label_Minutes" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+	<data name="Const_Label_Version" xml:space="preserve">
+    <value>Version</value>
+  </data>
+	<data name="Const_Label_Installed" xml:space="preserve">
+    <value>Installed:</value>
+  </data>
+	<data name="Const_Label_About_Description" xml:space="preserve">
+    <value>Appy Fleet is a trading style of Trak Global Solutions Ltd, Global House, Westmere Drive, Crewe, CW1 6ZD</value>
+  </data>
+	<data name="Const_Label_About_Company_Number" xml:space="preserve">
+    <value>Registered Company Number 06944694</value>
+  </data>
+	<data name="Const_Label_Guide_Steps" xml:space="preserve">
+    <value>Follow these simple guide steps...</value>
+  </data>
+	<data name="Const_Label_Guide_Tip" xml:space="preserve">
+    <value>Tip: Use the notes app on your phone.</value>
+  </data>
+	<data name="Const_Label_Manage_Vehicles" xml:space="preserve">
+    <value>Manage Vehicles</value>
+  </data>
+	<data name="Const_Label_Notifications" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+	<data name="Const_Label_New_Notification" xml:space="preserve">
+    <value>New Notification</value>
+  </data>
+	<data name="Const_Label_New_Notifications" xml:space="preserve">
+    <value>New Notifications</value>
+  </data>
+	<data name="Const_Label_Notifications_Popup" xml:space="preserve">
+    <value>You have %@ unread notifications. Please tap below to view them.</value>
+  </data>
+	<data name="Const_Label_Select_Vehicle" xml:space="preserve">
+    <value>Select Your Vehicle</value>
+  </data>
+	<data name="Const_Label_Select_Bluetooth" xml:space="preserve">
+    <value>Pair your vehicle... Make sure your vehicle is discoverable</value>
+  </data>
+	<data name="Const_Label_Paired_Vehicles" xml:space="preserve">
+    <value>Current Paired Vehicles</value>
+  </data>
+	<data name="Const_Label_Pair_New_Vehicle" xml:space="preserve">
+    <value>Pair New Vehicle</value>
+  </data>
+	<data name="Const_Label_Pair_Bluetooth" xml:space="preserve">
+    <value>Pair Vehicle via Bluetooth</value>
+  </data>
+	<data name="Const_Label_Add_Vehicle" xml:space="preserve">
+    <value>Add new vehicle</value>
+  </data>
+	<data name="Const_Label_Confirm_Selection" xml:space="preserve">
+    <value>Confirm Selection</value>
+  </data>
+	<data name="Const_Label_Confirm_Language" xml:space="preserve">
+    <value>Confirm Language</value>
+  </data>
+	<data name="Const_Label_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+	<data name="Const_Label_Registration" xml:space="preserve">
+    <value>Car Registration</value>
+  </data>
+	<data name="Const_Label_Make" xml:space="preserve">
+    <value>Make</value>
+  </data>
+	<data name="Const_Label_Model" xml:space="preserve">
+    <value>Model</value>
+  </data>
+	<data name="Const_Label_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+	<data name="Const_Label_Unread" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+	<data name="Const_Label_Warning" xml:space="preserve">
+    <value>warning</value>
+  </data>
+	<data name="Const_Label_Warnings" xml:space="preserve">
+    <value>warnings</value>
+  </data>
+	<data name="Const_Label_View" xml:space="preserve">
+    <value>View</value>
+  </data>
+	<data name="Const_Label_Terms_Scroll" xml:space="preserve">
+    <value>The T&amp;C’s need to be reviewed in full before proceeding.</value>
+  </data>
+	<data name="Const_Label_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+	<data name="Const_Label_Deselect" xml:space="preserve">
+    <value>Deselect</value>
+  </data>
+	<data name="Const_Label_Overall_Journey_Score" xml:space="preserve">
+    <value>Overall Journey Score</value>
+  </data>
+	<data name="Const_Label_Enter_Speed" xml:space="preserve">
+    <value>Enter road speed here:</value>
+  </data>
+	<data name="Const_Label_Fleet_Code_Question" xml:space="preserve">
+    <value>Do you have your fleet code?</value>
+  </data>
+	<data name="Const_Label_Disable_Fleet_Code" xml:space="preserve">
+    <value>I do not have a fleet code</value>
+  </data>
+	<data name="Const_Label_Manage_Vehicle_Step_1" xml:space="preserve">
+    <value>1. Search, Select OR Add a vehicle</value>
+  </data>
+	<data name="Const_Label_Manage_Vehicle_Step_2" xml:space="preserve">
+    <value>2. Pair a vehicle with Bluetooth</value>
+  </data>
+	<data name="Const_Label_Manage_Vehicle_Step_3" xml:space="preserve">
+    <value>3. Confirm vehicle pairing</value>
+  </data>
+	<data name="Const_Label_No_Search_Result" xml:space="preserve">
+    <value>'0' results from search...</value>
+  </data>
+	<data name="Const_Label_Skip_Fleet_Code" xml:space="preserve">
+    <value>You can skip this section and add your Fleet Code later on in the app settings.</value>
+  </data>
+	<data name="Const_Label_Pairing" xml:space="preserve">
+    <value>Pairing</value>
+  </data>
+	<data name="Const_Label_Review_Info" xml:space="preserve">
+    <value>Review the information below:</value>
+  </data>
+	<data name="Const_Label_Bluetooth_Registered" xml:space="preserve">
+    <value>Bluetooth Registered</value>
+  </data>
+	<data name="Const_Label_Confirm_Pairing" xml:space="preserve">
+    <value>Pressing confirm below will complete the vehicle pairing.</value>
+  </data>
+	<data name="Const_Label_Pairing_Completed" xml:space="preserve">
+    <value>Vehicle pairing complete</value>
+  </data>
+	<data name="Const_Label_Turn_On_Location_Services" xml:space="preserve">
+    <value>Please turn on location services</value>
+  </data>
+	<data name="Const_Label_Turn_On_Bluetooth" xml:space="preserve">
+    <value>Please turn on Bluetooth</value>
+  </data>
+	<data name="Const_Label_Calendar" xml:space="preserve">
+    <value>Calendar</value>
+  </data>
+	<data name="Const_Label_Overall_Driver_Score" xml:space="preserve">
+    <value>Overall Driver Score</value>
+  </data>
+	<data name="Const_Label_Total_Mileage" xml:space="preserve">
+    <value>Total Mileage</value>
+  </data>
+	<data name="Const_Label_Business" xml:space="preserve">
+    <value>Business</value>
+  </data>
+	<data name="Const_Label_Private" xml:space="preserve">
+    <value>Private</value>
+  </data>
+	<data name="Const_Label_Registration_Title" xml:space="preserve">
+    <value>Join a Fleet</value>
+  </data>
+	<data name="Const_Label_Registration_Description" xml:space="preserve">
+    <value>You are not currently part of a fleet or group and have no ranking. For details of how to create a fleet or user group for your company, click below.</value>
+  </data>
+	<data name="Const_Label_Show_Private_Off" xml:space="preserve">
+    <value>Show Private</value>
+  </data>
+	<data name="Const_Label_Show_Private_On" xml:space="preserve">
+    <value>Hide Private</value>
+  </data>
+	<data name="Const_Label_Fleet_Rank" xml:space="preserve">
+    <value>Fleet Rank</value>
+  </data>
+	<data name="Const_Label_Group_Rank" xml:space="preserve">
+    <value>Group Rank</value>
+  </data>
+	<data name="Const_Label_Team_Rank" xml:space="preserve">
+		<value>Team Rank</value>
+		</data>
+<data name="Const_Label_Business_Rank" xml:space="preserve">
+		<value>Business Rank</value>
+		</data>
+	<data name="Const_Label_Rank_Average_Fleet_Score" xml:space="preserve">
+    <value>Your Average Fleet Score is:</value>
+  </data>
+	<data name="Const_Label_Latest_Journey" xml:space="preserve">
+    <value>Latest Journey</value>
+  </data>
+	<data name="Const_Label_Business_Mileage" xml:space="preserve">
+    <value>Business Mileage</value>
+  </data>
+	<data name="Const_Label_Personal_Mileage" xml:space="preserve">
+    <value>Private Mileage</value>
+  </data>
+	<data name="Const_Label_Terms_1" xml:space="preserve">
+    <value>Driver Terms and Conditions</value>
+  </data>
+	<data name="Const_Label_Terms_2" xml:space="preserve">
+    <value>Privacy Policy</value>
+  </data>
+	<data name="Const_Label_Terms_3" xml:space="preserve">
+    <value>HERE Speed Data Terms and Conditions</value>
+  </data>
+	<data name="Const_Label_Driver_Score" xml:space="preserve">
+    <value>Driver Score</value>
+  </data>
+	<data name="Const_Label_Journey_Score" xml:space="preserve">
+		<value>Journey Score</value>
+		</data>
+	<data name="Const_Label_Not_Registered" xml:space="preserve">
+    <value>Not registered?</value>
+  </data>
+	<data name="Const_Language_en" xml:space="preserve">
+    <value>English</value>
+  </data>
+	<data name="Const_Language_fr" xml:space="preserve">
+    <value>French</value>
+  </data>
+	<data name="Const_Label_Export" xml:space="preserve">
+    <value>Export Selected Period</value>
+  </data>
+	<data name="Const_Label_Export_Column1" xml:space="preserve">
+    <value>Start Time</value>
+  </data>
+	<data name="Const_Label_Export_Column2" xml:space="preserve">
+    <value>Start Location</value>
+  </data>
+	<data name="Const_Label_Export_Column3" xml:space="preserve">
+    <value>End Time</value>
+  </data>
+	<data name="Const_Label_Export_Column4" xml:space="preserve">
+    <value>End Location</value>
+  </data>
+	<data name="Const_Label_Export_Column5" xml:space="preserve">
+    <value>Vehicle</value>
+  </data>
+	<data name="Const_Label_Export_Column6" xml:space="preserve">
+    <value>Mileage</value>
+  </data>
+	<data name="Const_Label_Export_FileName" xml:space="preserve">
+    <value>expenses.csv</value>
+  </data>
+	<data name="Const_Label_Export_Subject" xml:space="preserve">
+    <value>Appy Fleet Expenses</value>
+  </data>
+	<data name="Const_Label_Calendar_1" xml:space="preserve">
+    <value>Last 7 Days</value>
+  </data>
+	<data name="Const_Label_Calendar_2" xml:space="preserve">
+    <value>Last 30 Days</value>
+  </data>
+	<data name="Const_Label_Calendar_3" xml:space="preserve">
+    <value>Year to Date</value>
+  </data>
+	<data name="Const_Label_Calendar_4" xml:space="preserve">
+    <value>Current Week</value>
+  </data>
+	<data name="Const_Label_Calendar_5" xml:space="preserve">
+    <value>Current Month</value>
+  </data>
+	<data name="Const_Label_Rate_Title" xml:space="preserve">
+    <value>Like this app?</value>
+  </data>
+	<data name="Const_Label_Rate_Message" xml:space="preserve">
+    <value>Rate on the app store.</value>
+  </data>
+	<data name="Const_Label_Rate_ButtonCancel" xml:space="preserve">
+    <value>No, thanks</value>
+  </data>
+	<data name="Const_Label_Rate_ButtonYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+	<data name="Const_Label_Rate_ButtonRemind" xml:space="preserve">
+    <value>Remind me later</value>
+  </data>
+	<data name="Const_Event_Type_0" xml:space="preserve">
+    <value>No Event</value>
+  </data>
+	<data name="Const_Event_Type_1" xml:space="preserve">
+    <value>Speeding</value>
+  </data>
+	<data name="Const_Event_Type_2" xml:space="preserve">
+    <value>Excessive Driving</value>
+  </data>
+	<data name="Const_Event_Type_3" xml:space="preserve">
+    <value>Low Battery</value>
+  </data>
+	<data name="Const_Event_Type_4" xml:space="preserve">
+    <value>Power Failure</value>
+  </data>
+	<data name="Const_Event_Type_5" xml:space="preserve">
+    <value>Idling</value>
+  </data>
+	<data name="Const_Event_Type_6" xml:space="preserve">
+    <value>Exceeding Mileage</value>
+  </data>
+	<data name="Const_Event_Type_7" xml:space="preserve">
+    <value>New Updates</value>
+  </data>
+	<data name="Const_Event_Type_8" xml:space="preserve">
+    <value>Tamper</value>
+  </data>
+	<data name="Const_Event_Type_9" xml:space="preserve">
+    <value>Ignition On</value>
+  </data>
+	<data name="Const_Event_Type_10" xml:space="preserve">
+    <value>Position Update</value>
+  </data>
+	<data name="Const_Event_Type_11" xml:space="preserve">
+    <value>Motion</value>
+  </data>
+	<data name="Const_Event_Type_12" xml:space="preserve">
+    <value>Ignition Off</value>
+  </data>
+	<data name="Const_Event_Type_13" xml:space="preserve">
+    <value>Updates Failed</value>
+  </data>
+	<data name="Const_Event_Type_14" xml:space="preserve">
+    <value>Failed To Report</value>
+  </data>
+	<data name="Const_Event_Type_15" xml:space="preserve">
+    <value>Tow Away</value>
+  </data>
+	<data name="Const_Event_Type_16" xml:space="preserve">
+    <value>Double Failed to Report</value>
+  </data>
+	<data name="Const_Event_Type_17" xml:space="preserve">
+    <value>Secondary Tamper</value>
+  </data>
+	<data name="Const_Event_Type_18" xml:space="preserve">
+    <value>Hardware Tamper</value>
+  </data>
+	<data name="Const_Event_Type_19" xml:space="preserve">
+    <value>Impact</value>
+  </data>
+	<data name="Const_Event_Type_20" xml:space="preserve">
+    <value>WakeUp</value>
+  </data>
+	<data name="Const_Event_Type_21" xml:space="preserve">
+    <value>XTPR</value>
+  </data>
+	<data name="Const_Event_Type_22" xml:space="preserve">
+    <value>STPR</value>
+  </data>
+	<data name="Const_Event_Type_23" xml:space="preserve">
+    <value>Static G</value>
+  </data>
+	<data name="Const_Event_Type_24" xml:space="preserve">
+    <value>Low G</value>
+  </data>
+	<data name="Const_Event_Type_25" xml:space="preserve">
+    <value>High G</value>
+  </data>
+	<data name="Const_Event_Type_26" xml:space="preserve">
+    <value>XYZ</value>
+  </data>
+	<data name="Const_Event_Type_27" xml:space="preserve">
+    <value>.PositionUpdate</value>
+  </data>
+	<data name="Const_Event_Type_28" xml:space="preserve">
+    <value>Harsh breaking</value>
+  </data>
+	<data name="Const_Menu_Dashboard" xml:space="preserve">
+    <value>Dashboard</value>
+  </data>
+	<data name="Const_Menu_ScoreHistory" xml:space="preserve">
+    <value>Score History</value>
+  </data>
+	<data name="Const_Menu_YourJourneys" xml:space="preserve">
+    <value>My Journeys</value>
+  </data>
+	<data name="Const_Menu_Expenses" xml:space="preserve">
+    <value>Expenses</value>
+  </data>
+	<data name="Const_Menu_UserGuide" xml:space="preserve">
+    <value>User Guide</value>
+  </data>
+	<data name="Const_Menu_Terms" xml:space="preserve">
+    <value>Terms &amp; Conditions</value>
+  </data>
+	<data name="Const_Menu_DrivingTips" xml:space="preserve">
+    <value>Driving Tips</value>
+  </data>
+	<data name="Const_Menu_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+	<data name="Const_Menu_EmergencyAdvice" xml:space="preserve">
+    <value>Emergency Advice</value>
+  </data>
+	<data name="Const_Menu_RefreshData" xml:space="preserve">
+    <value>Refresh Data</value>
+  </data>
+	<data name="Const_Button_SignIn" xml:space="preserve">
+    <value>Sign In</value>
+  </data>
+	<data name="Const_Button_SignOut" xml:space="preserve">
+    <value>Sign Out</value>
+  </data>
+	<data name="Const_Button_Accept" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+	<data name="Const_Button_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+	<data name="Const_Button_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+	<data name="Const_Button_Select" xml:space="preserve">
+    <value>Select</value>
+  </data>
+	<data name="Const_Button_Add" xml:space="preserve">
+    <value>Add</value>
+  </data>
+	<data name="Const_Button_Remove" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+	<data name="Const_Button_Select_All" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+	<data name="Const_Button_Deselect_All" xml:space="preserve">
+    <value>Deselect all</value>
+  </data>
+	<data name="Const_Button_Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+	<data name="Const_Button_Registration_1_Next" xml:space="preserve">
+    <value>Next: Account Details</value>
+  </data>
+	<data name="Const_Button_Registration_2_Next" xml:space="preserve">
+    <value>Next: Password</value>
+  </data>
+	<data name="Const_Button_Registration_3_Next" xml:space="preserve">
+    <value>Next: Fleet Code</value>
+  </data>
+	<data name="Const_Button_Registration_4_Next" xml:space="preserve">
+    <value>Next: Finish Registration</value>
+  </data>
+	<data name="Const_Button_Dashboard_Tab1" xml:space="preserve">
+    <value>Driver Score</value>
+  </data>
+	<data name="Const_Button_Dashboard_Tab2" xml:space="preserve">
+    <value>Latest Journey</value>
+  </data>
+	<data name="Const_Button_Dashboard_Tab3" xml:space="preserve">
+    <value>Driver Rank</value>
+  </data>
+	<data name="Const_Button_Journeys_Tab1" xml:space="preserve">
+    <value>All Journeys</value>
+  </data>
+	<data name="Const_Button_Journeys_Tab2" xml:space="preserve">
+    <value>Business</value>
+  </data>
+	<data name="Const_Button_Journeys_Tab3" xml:space="preserve">
+    <value>Private</value>
+  </data>
+	<data name="Const_Button_Notifications_Tab1" xml:space="preserve">
+    <value>All</value>
+  </data>
+	<data name="Const_Button_Notifications_Tab2" xml:space="preserve">
+    <value>Unread</value>
+  </data>
+	<data name="Const_Button_Notifications_Tab3" xml:space="preserve">
+    <value>Read</value>
+  </data>
+	<data name="Const_Button_Map_Tab1" xml:space="preserve">
+    <value>Driver Stats</value>
+  </data>
+	<data name="Const_Button_Map_Tab2" xml:space="preserve">
+    <value>Journey Details</value>
+  </data>
+	<data name="Const_Button_Map_Tab3" xml:space="preserve">
+    <value>Miles</value>
+  </data>
+	<data name="Const_Button_Score_History" xml:space="preserve">
+    <value>Score History</value>
+  </data>
+	<data name="Const_Button_Map" xml:space="preserve">
+    <value>Go to map</value>
+  </data>
+	<data name="Const_Button_Journeys" xml:space="preserve">
+    <value>My Journeys</value>
+  </data>
+	<data name="Const_Button_Driving_Tips" xml:space="preserve">
+    <value>Driving Tips</value>
+  </data>
+	<data name="Const_Button_Refine" xml:space="preserve">
+    <value>Refine</value>
+  </data>
+	<data name="Const_Button_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+	<data name="Const_Button_View_Map" xml:space="preserve">
+    <value>View Map</value>
+  </data>
+	<data name="Const_Button_View_On_Map" xml:space="preserve">
+    <value>View on Map</value>
+  </data>
+	<data name="Const_Button_View_Map_Info" xml:space="preserve">
+    <value>View Map Info</value>
+  </data>
+	<data name="Const_Button_View_Journey" xml:space="preserve">
+    <value>View Journey</value>
+  </data>
+	<data name="Const_Button_View_Info" xml:space="preserve">
+    <value>View info</value>
+  </data>
+	<data name="Const_Button_Confirm_1" xml:space="preserve">
+    <value>Confirm Password Change</value>
+  </data>
+	<data name="Const_Button_Confirm_2" xml:space="preserve">
+    <value>Confirm Phone Number Change</value>
+  </data>
+	<data name="Const_Button_Confirm_3" xml:space="preserve">
+    <value>Confirm Fleet Code</value>
+  </data>
+	<data name="Const_Button_Confirm_4" xml:space="preserve">
+    <value>Confirm Odometer Reading</value>
+  </data>
+	<data name="Const_Button_Select_Vehicle" xml:space="preserve">
+    <value>No Vehicle Selected</value>
+  </data>
+	<data name="Const_Button_Add_Odometer_Reading" xml:space="preserve">
+    <value>Add New Odometer Reading</value>
+  </data>
+	<data name="Const_Button_Next_Journey_Only" xml:space="preserve">
+    <value>Next Journey Only</value>
+  </data>
+	<data name="Const_Button_Set_End_Time" xml:space="preserve">
+    <value>Set End Time</value>
+  </data>
+	<data name="Const_Button_Set_Time" xml:space="preserve">
+    <value>Set Time</value>
+  </data>
+	<data name="Const_Button_Select_Bluetooth" xml:space="preserve">
+    <value>Please Select Bluetooth</value>
+  </data>
+	<data name="Const_Button_Pair_Vehicle" xml:space="preserve">
+    <value>Pair with vehicle</value>
+  </data>
+	<data name="Const_Button_Create_Vehicle" xml:space="preserve">
+    <value>Create Vehicle</value>
+  </data>
+	<data name="Const_Button_Send" xml:space="preserve">
+    <value>Send</value>
+  </data>
+	<data name="Const_Button_Send_Incident" xml:space="preserve">
+    <value>Send Incident Alert</value>
+  </data>
+	<data name="Const_Button_Try_Again" xml:space="preserve">
+    <value>Try Again</value>
+  </data>
+	<data name="Const_Button_Manage_Vehicle_Step_1" xml:space="preserve">
+    <value>Step 1</value>
+  </data>
+	<data name="Const_Button_Manage_Vehicle_Step_2" xml:space="preserve">
+    <value>Step 2 - Pair a Vehicle</value>
+  </data>
+	<data name="Const_Button_Manage_Vehicle_Step_3" xml:space="preserve">
+    <value>Step 3</value>
+  </data>
+	<data name="Const_Button_Manage_Vehicle_Step_4" xml:space="preserve">
+    <value>Confirm Pairing Details</value>
+  </data>
+	<data name="Const_Button_Manage_Vehicle_Step_5" xml:space="preserve">
+    <value>Complete</value>
+  </data>
+	<data name="Const_Button_Confirm" xml:space="preserve">
+    <value>Confirm</value>
+  </data>
+	<data name="Const_Button_View_Journeys" xml:space="preserve">
+    <value>View Journeys</value>
+  </data>
+	<data name="Const_Button_View_All_Journeys" xml:space="preserve">
+    <value>View all Journeys</value>
+  </data>
+	<data name="Const_Button_More" xml:space="preserve">
+    <value>Find out more</value>
+  </data>
+		<data name="Const_Button_Join" xml:space="preserve">
+    <value>Join</value>
+  </data>
+	<data name="Const_Placeholder_UserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+	<data name="Const_Placeholder_Password" xml:space="preserve">
+    <value>Password</value>
+  </data>
+	<data name="Const_Placeholder_New_Password" xml:space="preserve">
+    <value>New Password</value>
+  </data>
+	<data name="Const_Placeholder_Enter" xml:space="preserve">
+    <value>Enter Here</value>
+  </data>
+	<data name="Const_Placeholder_Position" xml:space="preserve">
+    <value>Manager</value>
+  </data>
+	<data name="Const_Placeholder_ReType_Password" xml:space="preserve">
+    <value>Re-Type New Password</value>
+  </data>
+	<data name="Const_Placeholder_Select_Vehicle" xml:space="preserve">
+    <value>Search Vehicle</value>
+  </data>
+	<data name="Const_Placeholder_Mobile_Number" xml:space="preserve">
+    <value>XXXX XXX XXXX</value>
+  </data>
+	<data name="Const_Placeholder_Company_Name" xml:space="preserve">
+    <value>Enter Here</value>
+  </data>
+	<data name="Const_Placeholder_Start_Date" xml:space="preserve">
+    <value>Start Date</value>
+  </data>
+	<data name="Const_Placeholder_End_Date" xml:space="preserve">
+    <value>End Date</value>
+  </data>
+	<data name="Const_Placeholder_Optional" xml:space="preserve">
+    <value>(optional)</value>
+  </data>
+	<data name="Const_Placeholder_Fleet_Code" xml:space="preserve">
+    <value>Tap here if you have your code</value>
+  </data>
+	<data name="Const_Placeholder_DOB" xml:space="preserve">
+    <value>Year of Birth</value>
+  </data>
+	<data name="Const_Label_Journey_Score" xml:space="preserve">
+	<value>Journey Score</value>
+	</data>
+	<data name="Const_Label_Not_Registered" xml:space="preserve">
+	<value>Not registered?</value>
+	</data>
+	<data name="Const_Label_Group_Score" xml:space="preserve">
+	<value>Group Score</value>
+	</data>
+	<data name="Const_Label_Business_Score" xml:space="preserve">
+	<value>Business Score</value>
+	</data>
+	<data name="Const_Label_Team_Score" xml:space="preserve">
+	<value>Team Score</value>
+	</data>
+	<data name="Const_Label_Business_Rank" xml:space="preserve">
+	<value>Business Rank</value>
+	</data>
+	<data name="Const_Label_Difference" xml:space="preserve">
+	<value>Your difference</value>
+	</data>
+	<data name="Const_Label_Group_Score" xml:space="preserve">
+	<value>Group Score</value>
+	</data>
+	<data name="Const_Label_Speed_Unit" xml:space="preserve">
+	<value>mph</value>
+	</data>
+	<data name="Const_Label_NoPDFViewer" xml:space="preserve">
+	<value>There isn't a PDF viewer on this device. Please download one to display the file</value>
+	</data>
+	<data name="Const_Label_Score" xml:space="preserve">
+	<value>Score</value>
+	</data>
+<data name="Const_Label_Ranking" xml:space="preserve">
+	<value>Ranking</value>
+	</data>
+</root>
+

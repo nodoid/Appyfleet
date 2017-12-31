@@ -134,7 +134,6 @@ namespace mvvmframework.Services
                     var speedInKnots = (float)Math.Max(location.Speed, 0.0f) * Constants.kMetresPerSecondToKnots;
                     var version = VersionNum;
 
-                    // AB {12} used to be {x}
                     //var userData = UserData.Instance;
                     var sik = speedInKnots.ToString("0.00", nfi);
                     var gps = GpsRunning ? "#1" : string.Empty;
@@ -196,7 +195,6 @@ namespace mvvmframework.Services
                     return;
                 }
 
-                //AppyFleetService.GetInstance().UpdateStatusNotificationText(RecordingText);
                 Messenger.Default.Send(new NotificationMessage(this, "RecordingData"));
                 logService.WriteLog("JourneyManager:UpdateDriverBehaviour", $"UpdateDriverBehaviour - distanceTravelled = {mDistanceTravelled}, Accuracy {mLastKnownLocation.Accuracy}");
                 newSpeed = (float)mLastKnownLocation.Speed * Constants.kMetresPerSecondToKnots;
@@ -257,18 +255,14 @@ namespace mvvmframework.Services
 
             lock (mCurrentJourney)
             {
-                // AB I should probably check that the mLastKnownLocation is not the same as last time I was in here...
-
                 newSpeed = Math.Max(0.0f, newSpeed);
                 if (mCurrentJourney.Count > 0)
                 {
-                    // Add a new point to the journey if we've moved far enough, and enough time has passed
                     {
                         var lastPoint = mCurrentJourney[mCurrentJourney.Count - 1];
 
                         var distance = mOldLocation.DistanceTo(mLastKnownLocation);
 
-                        // AB err... mDistanceTravelled += miles to knots * 100.0f * 3600.0f * distance in meters / meters in mile
                         mDistanceTravelled += 0.868976f * (float)(100.0f * 3600.0f * distance / 1609.344f);
                         logService.WriteLog("JourneyManager:UpdateDriverBehaviour", "Distance travelled = " + mDistanceTravelled);
 
@@ -323,20 +317,17 @@ namespace mvvmframework.Services
                 {
                     // If the off event was added successfully then show success notification
                     Messenger.Default.Send(new NotificationMessage(this, "JourneyEndedOK"));
-                    //AppyFleetService.GetInstance().SendDismissableNotification(JourneyRecordedTitle, JourneyRecordedDetail);
                 }
                 else if (mLastKnownLocation == null || !mInJourney)
                 {
                     // If it failed and mLastKnownLocation is null. We know why it failed.
-                    //AppyFleetService.GetInstance().SendDismissableNotification(JourneyFailedToRecordedTitle, JourneyFailedToRecordedDetail);
-                    logService.WriteLog("JourneyManager:EndJourney", "Journey was detected but never received a usable location. Cannot be stored.");
+                   logService.WriteLog("JourneyManager:EndJourney", "Journey was detected but never received a usable location. Cannot be stored.");
                     Messenger.Default.Send(new NotificationMessage(this, "JourneyEndedNR"));
                 }
                 else
                 {
                     // Tell the user something went wrong.
                     logService.WriteLog("JourneyManager:EndJourney", "Journey was not stored for an unknown reason.");
-                    //AppyFleetService.GetInstance().SendDismissableNotification(JourneyFailedToRecordedTitle, JourneyFailedToRecordedUnknownReasonDetail);
                     Messenger.Default.Send(new NotificationMessage(this, "JourneyEndedUK"));
                 }
 
